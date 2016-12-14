@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>--SI_PKL--</title>
+    <title>--SIPMAGANG--</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -24,7 +24,7 @@
 
   </head>
 
-  <body background="<?php echo base_url(); ?>../../assets/img/1.jpg">
+  <body background="<?php echo base_url(); ?>../../assets/img/uin.jpg">
     <div class="preload-wrapper">
     <div id="preloader5"></div>
   </div>
@@ -37,7 +37,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="#">.: SI_PKL :.</a>
+          <a class="brand" href="#">.: SIPMagang :.</a>
           <div class="nav-collapse collapse">
             <!-- <ul class="nav">
               <li><a href="#"><i class="icon-home icon-white"></i> Home</a></li>
@@ -57,18 +57,17 @@
 
       <div class="hero-unit">
         
-        <h2>Selamat Datang di SIPYuda</h2>
-        <p>SIPYuda ( Sistem Informasi Pendaftaran Yudisium atau Wisuda ) merupakan sebuah 
-          aplikasi untuk melakukan pendaftaran yudisium dan wisuda di Perguruan Tinggi. 
-          Silahkan masukkan username dan password anda 
-          untuk mulai menggunakan aplikasi ini</p>
+        <h2>Selamat Datang di SIPMagang</h2>
+        <p>SIPMagang ( Sistem Informasi Pendaftaran Magang ) merupakan sebuah aplikasi
+        untuk melakukan pendaftaran magang. Silahkan masukkan nim dan user sesuai siakad anda
+        untuk masuk ke aplikasi ini</p>
           <p>
             <p>Terimakasih....
       </div>
 
 
       <footer class="well" >
-        <p><center>Copyright @ RPL_2015</center></p>
+        <p><center>Copyright @ MANPRO_2016</center></p>
       </footer>
 
     </div> <!-- /container -->
