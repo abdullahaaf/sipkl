@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>SIPYuda :: PENDAFTARAN ONLINE</title>
+    <title>-- SIP_PKL --</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -58,7 +58,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand">SIPYuda</a>
+          <a class="brand">.: SIP_PKL :.</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li><a href="<?php echo base_url() ?>index.php/con_pendaftaran"><i class="icon-home icon-white"></i> Home</a></li>
@@ -79,24 +79,32 @@
       </div>
     </div>
   
-    <div class="container">
+  <div class="container">
   
   <div class="well">
     <div class="row">
     <div class="span">
-      <div class="image"><img src="<?php echo base_url(); ?>assets/img/test.png"></div>
+      <div class="image"><img src="<?php echo base_url(); ?>assets/img/logo_uin.jpeg"></div>
+    </div>
+    <div class="row">
+      <h3><center>SISTEM INFORMASI PENDAFTARAN PKLI</center></h3>
+      <br>
+      <h3><center>JURUSAN TEKNIK INFORMATIKA</center></h3>
+      <br>
+      <h3><center>UIN MAULANA MALIK IBRAHIM MALANG</center></h3>
     </div>
     </div>
   </div>
 
   <div class="well">
-    <div class="navbar navbar-inverse">
-    <div class="navbar-inner">
-    <div class="container">
-
-   <?php echo $contents; ?>
-  
-    </div>
+   <div class="row">
+     <div class="span">
+       <h2>Selamat Datang di SIP_PKL</h2>
+       <br>
+       <h4>Sistem Informasi Pendaftaran PKLI</h4>
+     </div>
+   </div>
+  </div>
       <footer class="well" >
         <p><center>Copyright @ RPL_2015</center></p>
       </footer>
