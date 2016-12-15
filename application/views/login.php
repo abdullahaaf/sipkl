@@ -142,7 +142,7 @@
                                 <div class="md-form">
                                     <i class="fa fa-user prefix"></i>
                                     <input name="username" type="text" id="form2" class="form-control">
-                                    <label for="form2">NIM</label>
+                                    <label for="form2">Username</label>
                                 </div>
 
                                 <div class="md-form">

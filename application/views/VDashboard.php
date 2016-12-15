@@ -11,5 +11,7 @@
 <br>
 <br>
 <br>
-<center><h5>untuk melakukan pendaftaran pkli, silahkan klik link dibawah !</h5></center>
-<center><a href="<?php echo site_url('Cdashboard')?>"></a>Mulai Daftar</center>
+<center><h5>untuk melakukan pendaftaran pkli, silahkan klik tombol dibawah !</h5></center>
+<center>
+	<button class="btn btn-primary">Mulai Pendaftaran !</button>
+</center>

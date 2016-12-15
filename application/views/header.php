@@ -67,18 +67,7 @@
                     <!--Links-->
                     <ul class="nav navbar-nav">
                         <li class="nav-item btn-group">
-                            <a class="nav-link" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Info</a>
-                           <!--  <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                                <a href="<?php echo site_url('Csetting_bayar')?>" class="dropdown-item">Setting Nama Pembayaran</a>
-                                <a href="<?php echo site_url('Csetting_bayar/jenis_bayar')?>" class="dropdown-item">Setting Jenis Pembayaran</a>
-                            </div> -->
-                        </li>
-                        <li class="nav-item btn-group">
-                            <a class="nav-link" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pendaftaran</a>
-                            <!-- <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                                <a href="<?php echo site_url('Ctransaksi/transaksi_proses')?>" class="dropdown-item">Proses Transaksi</a>
-                                <a href="<?php echo site_url('Ctransaksi/transaksi_rekap')?>" class="dropdown-item">Data History Transaksi</a>
-                            </div> -->
+                            <a class="nav-link" href="<?php echo site_url('Cinfo')?>" aria-haspopup="true" aria-expanded="false">Info</a>
                         </li>
                         <!-- <li class="nav-item btn-group">
                             <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Data Siswa</a>
