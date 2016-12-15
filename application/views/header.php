@@ -44,8 +44,6 @@
 </head>
 
 <body>
-
-
     <header>
 
         <!--Navbar-->

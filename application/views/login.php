@@ -131,7 +131,10 @@
                     <div class="col-lg-6">
                         <!--Form-->
                         <div class="card wow fadeInRight">
-                            <div class="card-block">                                
+                            <div class="card-block">
+                                <div class="text-xs-center">
+                                    <h3>LOGIN</h3>
+                                </div>                                
                                 <form action="<?php echo $action; ?>" method="post" >
                                 <!--Body-->
                                 <?php echo $error; ?>
@@ -139,7 +142,7 @@
                                 <div class="md-form">
                                     <i class="fa fa-user prefix"></i>
                                     <input name="username" type="text" id="form2" class="form-control">
-                                    <label for="form2">Username</label>
+                                    <label for="form2">NIM</label>
                                 </div>
 
                                 <div class="md-form">
