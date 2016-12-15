@@ -1,89 +1,154 @@
-<?php
-defined('BASEPATH') OR exit('No direct script access allowed');
-?><!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>Welcome to CodeIgniter</title>
+                        <!--First row-->
+            <div class="row">
+                <div class="col-md-7">
+                    <!--Featured image -->
+                    <div class="view overlay hm-white-light z-depth-1-half">
+                        <img src="http://mdbootstrap.com/images/proffesions/slides/socialmedia/img%20(2).jpg" class="img-fluid " alt="">
+                        <div class="mask">
+                        </div>
+                    </div>
+                    <br>
+                </div>
 
-	<style type="text/css">
+                <!--Main information-->
+                <div class="col-md-5">
+                    <h2 class="h2-responsive">We are professionals</h2>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis pariatur quod ipsum atque quam dolorem voluptate officia sunt placeat consectetur alias fugit cum praesentium ratione sint mollitia, perferendis natus quaerat!</p>
 
-	::selection { background-color: #E13300; color: white; }
-	::-moz-selection { background-color: #E13300; color: white; }
+                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal-register">
+                    Modal Register
+                    </button>
 
-	body {
-		background-color: #fff;
-		margin: 40px;
-		font: 13px/20px normal Helvetica, Arial, sans-serif;
-		color: #4F5155;
-	}
+                    <div class="input-field col s12">
+                        <select class="form-control">
+                          <option value="" disabled selected>Choose your option</option>
+                          <option value="1">Option 1</option>
+                          <option value="2">Option 2</option>
+                          <option value="3">Option 3</option>
+                        </select>
+                        <label>Materialize Select</label>
+                      </div>
 
-	a {
-		color: #003399;
-		background-color: transparent;
-		font-weight: normal;
-	}
+                    <select class="mdb-select">
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="" data-icon="http://mdbootstrap.com/wp-content/uploads/2015/10/avatar-1.jpg" class="rounded-circle">example 1</option>
+                        <option value="" data-icon="http://mdbootstrap.com/wp-content/uploads/2015/10/avatar-2.jpg" class="rounded-circle">example 2</option>
+                        <option value="" data-icon="http://mdbootstrap.com/wp-content/uploads/2015/10/avatar-3.jpg" class="rounded-circle">example 1</option>
+                    </select>
+                    <label>Example label</label>
 
-	h1 {
-		color: #444;
-		background-color: transparent;
-		border-bottom: 1px solid #D0D0D0;
-		font-size: 19px;
-		font-weight: normal;
-		margin: 0 0 14px 0;
-		padding: 14px 15px 10px 15px;
-	}
 
-	code {
-		font-family: Consolas, Monaco, Courier New, Courier, monospace;
-		font-size: 12px;
-		background-color: #f9f9f9;
-		border: 1px solid #D0D0D0;
-		color: #002166;
-		display: block;
-		margin: 14px 0 14px 0;
-		padding: 12px 10px 12px 10px;
-	}
+                </div>
+            </div>
+            <!--/.First row-->
 
-	#body {
-		margin: 0 15px 0 15px;
-	}
+            <div class="row">
+                <div class="col-md-12">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th></th>
+                                <th>First Name</th>
+                                <th>Last Name</th>
+                                <th>Username</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>
+                                    <fieldset class="form-group">
+                                        <input type="checkbox" id="checkbox1">
+                                        <label for="checkbox1"></label>
+                                    </fieldset>
+                                </td>
+                                <td>Ashley</td>
+                                <td>Lynwood</td>
+                                <td>@ashow</td>
+                                <td>
+                                    <a class="blue-text"><i class="fa fa-user"></i></a>
+                                    <a class="teal-text" data-toggle="modal" data-target="#modal-register"><i class="fa fa-pencil"></i></a>
+                                    <a class="red-text"><i class="fa fa-times"></i></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>
+                                    <fieldset class="form-group">
+                                        <input type="checkbox" id="checkbox2">
+                                        <label for="checkbox2"></label>
+                                    </fieldset>
+                                </td>
+                                <td>Billy</td>
+                                <td>Cullen</td>
+                                <td>@cullby</td>
+                                <td>
+                                    <a class="blue-text"><i class="fa fa-user"></i></a>
+                                    <a class="teal-text" data-toggle="modal" data-target="#modal-register"><i class="fa fa-pencil"></i></a>
+                                    <a class="red-text"><i class="fa fa-times"></i></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>
+                                    <fieldset class="form-group">
+                                        <input type="checkbox" id="checkbox3">
+                                        <label for="checkbox3"></label>
+                                    </fieldset>
+                                </td>
+                                <td>Ariel</td>
+                                <td>Macy</td>
+                                <td>@arielsea</td>
+                                <td>
+                                    <a class="blue-text"><i class="fa fa-user"></i></a>
+                                    <a class="teal-text" data-toggle="modal" data-target="#modal-register"><i class="fa fa-pencil"></i></a>
+                                    <a class="red-text"><i class="fa fa-times"></i></a>
+                                </td>
+                            </tr>
 
-	p.footer {
-		text-align: right;
-		font-size: 11px;
-		border-top: 1px solid #D0D0D0;
-		line-height: 32px;
-		padding: 0 10px 0 10px;
-		margin: 20px 0 0 0;
-	}
+                        </tbody>
+                    </table>
+                </div>
+            </div>       
 
-	#container {
-		margin: 10px;
-		border: 1px solid #D0D0D0;
-		box-shadow: 0 0 8px #D0D0D0;
-	}
-	</style>
-</head>
-<body>
+            
+                    
+                                
+<!-- Modal Register -->
+<div class="modal fade modal-ext" id="modal-register" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <!--Content-->
+        <div class="modal-content">
+            <!--Header-->
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h3><i class="fa fa-user"></i> Register with:</h3>
+            </div>
+            <!--Body-->
+            <div class="modal-body">
+                <div class="md-form">
+                    <i class="fa fa-envelope prefix"></i>
+                    <input type="text" id="form2" class="form-control">
+                    <label for="form2">Your email</label>
+                </div>
 
-<div id="container">
-	<h1>Welcome to CodeIgniter!</h1>
+                <div class="md-form">
+                    <i class="fa fa-lock prefix"></i>
+                    <input type="password" id="form3" class="form-control">
+                    <label for="form3">Your password</label>
+                </div>
 
-	<div id="body">
-		<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
-
-		<p>If you would like to edit this page you'll find it located at:</p>
-		<code>application/views/welcome_message.php</code>
-
-		<p>The corresponding controller for this page is found at:</p>
-		<code>application/controllers/Welcome.php</code>
-
-		<p>If you are exploring CodeIgniter for the very first time, you should start by reading the <a href="user_guide/">User Guide</a>.</p>
-	</div>
-
-	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
+                <div class="text-xs-center">
+                    <button class="btn btn-primary btn-lg">Sign up</button>
+                </div>
+            </div>
+        </div>
+        <!--/.Content-->
+    </div>
 </div>
-
-</body>
-</html>
+<!-- Modal End -->
