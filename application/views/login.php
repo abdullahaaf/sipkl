@@ -118,13 +118,18 @@
                 <div class="row" id="home">
 
                     <!--First column-->
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" id="deskripsi">
                         <div class="description">
-                            <h2 class="h2-responsive wow fadeInLeft">Sistem Pendaftaran PKLI </h2>
+                            <h2>Sistem Pendaftaran PKLI </h2>
                             <hr class="hr-dark">
                             <p class="wow fadeInLeft" data-wow-delay="0.4s">Aplikasi sistem pendaftaran ini ditujukan kepada mahasiswa jurusan Teknik Informatika untuk mempermudah proses dalam pendaftaran PKLI</p>
                         </div>
                     </div>
+
+                    <script type="text/javascript">
+                        $('deskripsi').addClass('animated fadeInUp');
+                    </script>
+
                     <!--/.First column-->
 
                     <!--Second column-->

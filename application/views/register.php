@@ -1,6 +1,6 @@
 <head>
 			<center><h3>Form Pendaftaran Kelompok PKLI</h3></center>
-			<h5><center>Lakukan pengisian form dibawwah ini untuk melakukan pendaftaran PKLI </center></h5>
+			<h5><center>Lakukan pengisian form dibawah ini untuk melakukan pendaftaran PKLI </center></h5>
 
 
 </head>
